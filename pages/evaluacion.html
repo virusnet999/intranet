@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación</title>
+    <link rel="shortcut icon" href="../img/insignia-pequeno.ico">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/chart.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Heebo&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/insignia pequeno.png" alt="" width="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://plataforma.ieangeldelaguarda.org">Virtual</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://blog.ieangeldelaguarda.org">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/subir-archivo.html">Subir</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutoriales.html">Tutoriales</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div id="contenido">
+        <div class="container-md">
+            <div class="row justify-content-md-center p-5">
+                <div class="col-sm-8 text-center p-2">
+                    <h3 class="text-center p-3 h1">Evaluación</h3>
+                    <p>La presenta pagina web tiene la intencion de reunir todos los enlaces a recursos en la web asi como también a los archivos que constan de documentos, imagenes, videos y audios que ayuden a realizar las diferentes evaluaciones </p>
+
+                    <h3 class="p-3">Grafico integral</h3>
+                    <p>Grafico integral para visualizar las calificaciones de forma integral del estudiante.</p>
+                    <!-- <a href="../documentos/test.xlsm"><button type="button" class="btn btn-warning">Descargar</button></a> -->
+                    <h3>Grafico</h3>
+                    <canvas id="myChart" height="300" width="300"></canvas>
+                    
+                    <script src="/js/main.js"></script>
+                    <!-- <script>
+                        const ctx = document.getElementById('myChart');
+
+                        new Chart(ctx, {
+                        type: 'radar',
+                        data: {
+                            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                            datasets: [{
+                            label: '# of Votes',
+                            data: [12, 19, 3, 5, 2, 3],
+                            borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                            }
+                        }
+                        });
+                    </script> -->
+                    <!-- <a href="http://192.168.1.79/limesurvey/index.php?r=survey/index&sid=126643&lang=es">
+                        <button type="button" class="btn btn-warning">Ingresar</button>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        
+
+    <!-- FOOTER -->
+    <div id="footer" class="p-1 bg-danger">
+        <div class="container w-50">
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center text-white">
+                    <p>Av. Samuel Pastor # 641 - Samuel Pastor <br>
+                    Teléfono: (054) 512716 <br>
+                    Camaná - Arequipa - Perú</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+
+</body>
+</html>
