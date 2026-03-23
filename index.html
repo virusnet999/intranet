@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet Angel de la Guarda</title>
+    <link rel="shortcut icon" href="img/insignia-pequeno.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Heebo&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- <script type="text/javascript">
+        window.onload = () => {
+            $('#onload').modal('show');
+        }
+    </script> -->
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/insignia pequeno.png" alt="" width="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://mensajes.ieangeldelaguarda.org/">Mensajes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://plataforma.ieangeldelaguarda.org">Virtual</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://blog.ieangeldelaguarda.org">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="subir-archivo.html">Subir</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/tutoriales.html">Tutoriales</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                    <img src="img/regreso1_b4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                    <img src="img/regreso2_b4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                    <img src="img/regreso3_b4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner suki -->
+	<!-- <div class="container-fluid p-0">
+      <div class="row g-0">
+          <div class="col-12 banner-container">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12 col-md-8 offset-md-4 d-none d-md-block">
+                          <div class="banner-text text-center">
+                            <h1>¿Pasas por un mal momento?</h1>
+                            <p class="lead">No dejes que un fortuito te aplaste. Empoderate con SUKI y toma control de tu destino ahora.</p>
+                            <a href="https://g.co/gemini/share/82eed70e5b5b" class="btn btn-danger btn-lg">Ingresa a Suki</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-12 d-md-none motivational-text-wrapper text-center">
+              <div class="banner-text">
+                  <h1>¿Pasas por un mal momento?</h1>
+                  <p class="lead">No dejes que un fortuito te aplaste. Empoderate con SUKI y toma control de tu destino ahora.</p>
+                  <a href="https://g.co/gemini/share/82eed70e5b5b" class="btn btn-danger btn-lg">Ingresa a Suki</a>
+              </div>
+          </div>
+      </div>    
+    </div> -->
+
+    <!-- CONTENT -->
+    <!-- Empieza Boton modal
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col text-center pt-5">
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modal1">
+                    Comunicado Urgente
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="modal1" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Comunicado Urgente</h5>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Se comunica que la revision del trabajo sera este viernes, agradecemos su comprension.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok, entendí</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    Termina Boton modal -->
+
+    <!-- AREAS -->
+    <div id="areas">
+        <div class="container-md p-5">
+            <div class="row pt-3">
+                <h3 class="text-center pb-5 pt-3 h1">Areas Curriculares</h3>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/arte.html"><img src="img/arte.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Arte</h5>
+                            <p class="card-text">Sección de arte para apreciar de manera crítica las manifestaciones artístico - cultural.</p>
+                            <a href="pages/arte.html" class="btn btn-primary">Ir a Arte</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/ciencias-sociales.html"><img src="img/ccss.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Ciencias Sociales</h5>
+                            <p class="card-text">Seccion de Ciencias Sociales para construir interpretaciones historicas.</p>
+                            <a href="pages/ciencias-sociales.html" class="btn btn-primary">Ir a Cienias Sociales</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/comunicacion.html"><img src="img/comunicacion.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Comunicación</h5>
+                            <p class="card-text">Sección de Comunicación con recursos para que se comunique oralmente.</p>
+                            <a href="pages/comunicacion.html" class="btn btn-primary">Ir a Comunicación</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/ciencia-tecnologia.html"><img src="img/ct.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Ciencia y Tecnología</h5>
+                            <p class="card-text">Sección de Ciencia y Tecnología para indagar mediante  métodos científicos.</p>
+                            <a href="pages/ciencia-tecnologia.html" class="btn btn-primary">Ir a Ciencia y Tecnología</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/desarrollo-personal.html"><img src="img/dpcc.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo Personal</h5>
+                            <p class="card-text">Seccion de DPCC para proveer recursos que ayuden a construir su identidad.</p>
+                            <a href="pages/desarrollo-personal.html" class="btn btn-primary">Ir a Desarrollo Personal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/educacion-fisica.html"><img src="img/efis.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Educación Física</h5>
+                            <p class="card-text">Sección de Educación Física con recursos para que se desenvuelva con su motricidad.</p>
+                            <a href="pages/educacion-fisica.html" class="btn btn-primary">Ir a Educación Física</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/educacion-trabajo.html"><img src="img/ept.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Educación para el Trabajo</h5>
+                            <p class="card-text">Sección de Educacion para el Trabajo para gestionar proyectos de emprendimiento.</p>
+                            <a href="pages/educacion-trabajo.html" class="btn btn-primary">Ir a Educación para el Trabajo</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/educacion-religiosa.html"><img src="img/erel.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Educación Religiosa</h5>
+                            <p class="card-text">Sección de Educación Religiosa para construir su identidad según doctrina cristiana.</p>
+                            <a href="pages/educacion-religiosa.html" class="btn btn-primary">Ir a Educación Religiosa</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/ingles.html"><img src="img/ingles.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Ingles</h5>
+                            <p class="card-text">Seccion de Ingles con recursos para que se comunique,  oralmente oralmente, lea y escriba.</p>
+                            <a href="pages/ingles.html" class="btn btn-primary">Ir a Ingles</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/matematica.html"><img src="img/matematica.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Matemática</h5>
+                            <p class="card-text">Sección de Matemática con recursos para resolver problemas de cantidad.</p>
+                            <a href="pages/matematica.html" class="btn btn-primary">Ir a Matemática</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/tutoria.html"><img src="img/tutoria.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Tutoría</h5>
+                            <p class="card-text">Sección de Tutoría con recursos para el apoyo socioemocional al estudiante.</p>
+                            <a href="pages/tutoria.html" class="btn btn-primary">Ir a Tutoría</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="subir-archivo.html"><img src="img/subir.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Subir archivos</h5>
+                            <p class="card-text">Sección de Subir archivos con la herramienta web para enviar trabajos de los estudiantes.</p>
+                            <a href="subir-archivo.html" class="btn btn-primary">Subir archivos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/tutoriales.html"><img src="img/joven-laptop.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Tutoriales</h5>
+                            <p class="card-text">Sección de Tutoriales con recursos para ayudar al estudiante.</p>
+                            <a href="pages/tutoriales.html" class="btn btn-primary">Ir a Tutoriales</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/acceso.html"><img src="img/acceso.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Acceso</h5>
+                            <p class="card-text">Sección de datos para el acceso a las diferentes plataformas.</p>
+                            <a href="pages/acceso.html" class="btn btn-primary">Ir a Acceso</a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <a href="pages/video-promocion.html"><img src="img/video-promocion.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Video clausura</h5>
+                            <p class="card-text">Sección de las preguntas para el video de clausura.</p>
+                            <a href="pages/video-promocion.html" class="btn btn-primary">Ir a Acceso</a>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+            
+        </div>
+    </div>
+    
+    
+
+    <!-- FOOTER -->
+    <div id="footer" class="p-1 bg-danger">
+        <div class="container w-50">
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center text-white">
+                    <p>Av. Samuel Pastor # 641 - Samuel Pastor <br>
+                    Teléfono: (054) 512716 <br>
+                    Camaná - Arequipa - Perú</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

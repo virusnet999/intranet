@@ -1,0 +1,58 @@
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Bitter', serif;
+    font-family: 'Heebo', sans-serif;
+}
+
+.contenedor-icono {
+    font-size: 30px;
+    color: #dc3545;
+}
+
+.banner-container {
+    position: relative;
+    min-height: 700px; /* Ajusta la altura mínima según tus necesidades */
+    background-image: url('/img/adolescente-triste2.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+    color: white;
+    padding: 2rem;
+    border-radius: .25rem;
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+      min-height: 250px; /* Altura para la imagen en móviles */
+      display: block;
+      background-position: top center;
+  }
+  .motivational-text-wrapper{
+      padding: 1.5rem;
+      background-color: #f8f9fa; /* Un fondo claro para el texto fuera de la imagen */
+  }
+  .banner-text {
+      background-color: transparent;
+      color: #212529; /* Color de texto oscuro para buen contraste */
+      padding: 0;
+  }
+}
